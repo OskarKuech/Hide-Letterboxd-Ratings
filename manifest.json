@@ -1,0 +1,15 @@
+{
+    "name": "Hide Letterboxd Ratings",
+    "description": "Hide ratings on Letterboxd by default",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "no-rating-icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://letterboxd.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+  }
