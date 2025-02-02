@@ -33,6 +33,14 @@ if (sidebar) {
     sidebar.appendChild(button);
 }
 
+button.addEventListener('mouseover', () => {
+    button.style.color = '#FFFFFF';
+});
+
+button.addEventListener('mouseout', () => {
+    button.style.color = '#BBCCDD';
+});
+
 button.addEventListener('click', () => {
     document.head.removeChild(style);
     button.remove();
