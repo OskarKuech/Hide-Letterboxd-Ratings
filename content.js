@@ -12,10 +12,6 @@ const style = document.createElement('style');
         .film-recent-reviews {
             display: none;
         }
-
-        .rating {
-			display: none;
-		}
     `;
 document.head.appendChild(style);
 
