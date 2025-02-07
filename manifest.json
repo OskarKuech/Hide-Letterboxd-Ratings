@@ -9,6 +9,7 @@
     "content_scripts": [
         {
             "matches": ["*://letterboxd.com/*"],
+            "exclude_matches": ["*://letterboxd.com/*/watchlist"],
             "js": ["content.js"]
         }
     ]
